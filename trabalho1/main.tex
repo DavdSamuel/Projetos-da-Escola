@@ -6,8 +6,20 @@
 
 \documentclass{article}  % Explanação rápida: Isso define o tipo do documento
 
+% Pacotes =======================================
+% Pacotes são coisas que você usa para melhorar ser documento.
+% Pacotes que eu estou usando:
+% Anyfontsize: Para aumentar o tamanho da fonte
+% Babel: Para deixar o documento em português
+% Geometry: Pra ajustar o documento
+% ===============================================
+
+\usepackage{anyfontsize}
+\usepackage[portuguese]{babel}  % Explanação rápida: Esta configuração traduz o documento para português
+\usepackage[left=3cm,top=3cm,right=2cm,bottom=2cm,a4paper]{geometry}  % Explanação rápida: essas configurações ajustam o tamanho do documento (falando especificamente as definições, a margem esquerda e a margem superior têm 3 centímetros e a margem direita e a margem inferior têm 2 centímetros)
+
 % Informações iniciais ==========================
-% Nas linhas 16 a 18 temos algumas informações
+% Nas linhas 28 a 30 temos algumas informações
 % \title{Falas}: Isso significa que o título do documento é "Falas"
 % \author{David, Wenderson, Isaac, Otávio e Marcos}: Isso são os nomes dos autores do documento
 % \date{5 de novembro de 2023}: A data que o documento foi feito
@@ -15,9 +27,11 @@
 
 \title{Falas}
 \author{David, Wenderson, Isaac, Otávio e Marcos}
-\date{\today}
+\date{5 de novembro de 2023}
 
-\begin{document}
-\maketitle
+\begin{document}  % Explanação rápida: Isso começa o documento
+\fontsize{12pt}{18pt}\selectfont  % Explanação rápida: Isso aumenta o tamanho da fonte
 
-\end{document}
+\maketitle  % Explanação rápida: Isso coloca um título bem formatado no documento com base nas informações dadas no \title, \author e \date 
+
+\end{document}  % Explanação rápida: Isso termina o documento
