@@ -1,0 +1,2 @@
+👋 = "Olá Mundo!"
+println(👋)
