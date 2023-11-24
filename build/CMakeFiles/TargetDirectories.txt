@@ -1,0 +1,3 @@
+/workspaces/Projetos-da-Escola/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Projetos-da-Escola/build/CMakeFiles/edit_cache.dir
+/workspaces/Projetos-da-Escola/build/CMakeFiles/FormulaCalculator.dir
