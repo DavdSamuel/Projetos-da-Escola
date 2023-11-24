@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     printf("# Formula Calculator #\n");
     printf("######################\n");
 
-    if (argv[1] == "add")
+    if (strcmp(argv[1], "add") == 0)
     {
         if (argc == 2 || argc == 3) {
             printf("ERRO!\nArgumentos insuficientes:\n");
