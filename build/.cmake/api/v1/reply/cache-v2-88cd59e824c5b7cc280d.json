@@ -839,7 +839,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project"
+			"value" : "FormulaCalculator"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1122,7 +1122,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Project_BINARY_DIR",
+			"name" : "FormulaCalculator_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1134,7 +1134,7 @@
 			"value" : "/workspaces/Projetos-da-Escola/build"
 		},
 		{
-			"name" : "Project_SOURCE_DIR",
+			"name" : "FormulaCalculator_SOURCE_DIR",
 			"properties" : 
 			[
 				{
