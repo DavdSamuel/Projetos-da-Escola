@@ -110,6 +110,46 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named FormulaCalculator
+
+# Build rule for target.
+FormulaCalculator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FormulaCalculator
+.PHONY : FormulaCalculator
+
+# fast build rule for target.
+FormulaCalculator/fast:
+	$(MAKE) -f CMakeFiles/FormulaCalculator.dir/build.make CMakeFiles/FormulaCalculator.dir/build
+.PHONY : FormulaCalculator/fast
+
+src/main.o: src/main.c.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/FormulaCalculator.dir/build.make CMakeFiles/FormulaCalculator.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/FormulaCalculator.dir/build.make CMakeFiles/FormulaCalculator.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/FormulaCalculator.dir/build.make CMakeFiles/FormulaCalculator.dir/src/main.c.s
+.PHONY : src/main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... FormulaCalculator"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
