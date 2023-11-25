@@ -12,12 +12,12 @@ int main(int argc, char *argv[])
 
     if (strcmp(argv[1], "add") == 0)
     {
-        if (argc == 2 || argc == 3) {
+        if (argc < 3) {
             printf("ERRO!\nArgumentos insuficientes:\n");
             printf("Uso correto do argumento \"add\": add <numero1> <numero2>\n");
             return 1;
         }
-        else if (argc > 3)
+        else
         {
 
         }
