@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FormulaCalculator.dir/src/main.c.o"
+  "CMakeFiles/FormulaCalculator.dir/src/operadores.c.o"
   "FormulaCalculator"
   "FormulaCalculator.pdb"
 )

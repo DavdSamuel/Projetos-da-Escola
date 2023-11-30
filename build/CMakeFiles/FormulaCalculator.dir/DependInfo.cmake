@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c" "/workspaces/Projetos-da-Escola/build/CMakeFiles/FormulaCalculator.dir/src/main.c.o"
+  "/workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.c" "/workspaces/Projetos-da-Escola/build/CMakeFiles/FormulaCalculator.dir/src/operadores.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
