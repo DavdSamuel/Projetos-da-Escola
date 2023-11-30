@@ -150,6 +150,33 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/FormulaCalculator.dir/build.make CMakeFiles/FormulaCalculator.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/operadores.o: src/operadores.c.o
+
+.PHONY : src/operadores.o
+
+# target to build an object file
+src/operadores.c.o:
+	$(MAKE) -f CMakeFiles/FormulaCalculator.dir/build.make CMakeFiles/FormulaCalculator.dir/src/operadores.c.o
+.PHONY : src/operadores.c.o
+
+src/operadores.i: src/operadores.c.i
+
+.PHONY : src/operadores.i
+
+# target to preprocess a source file
+src/operadores.c.i:
+	$(MAKE) -f CMakeFiles/FormulaCalculator.dir/build.make CMakeFiles/FormulaCalculator.dir/src/operadores.c.i
+.PHONY : src/operadores.c.i
+
+src/operadores.s: src/operadores.c.s
+
+.PHONY : src/operadores.s
+
+# target to generate assembly for a file
+src/operadores.c.s:
+	$(MAKE) -f CMakeFiles/FormulaCalculator.dir/build.make CMakeFiles/FormulaCalculator.dir/src/operadores.c.s
+.PHONY : src/operadores.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/operadores.o"
+	@echo "... src/operadores.i"
+	@echo "... src/operadores.s"
 .PHONY : help
 
 
