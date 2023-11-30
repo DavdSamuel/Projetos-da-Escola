@@ -60,28 +60,28 @@ include CMakeFiles/FormulaCalculator.dir/flags.make
 CMakeFiles/FormulaCalculator.dir/src/main.c.o: CMakeFiles/FormulaCalculator.dir/flags.make
 CMakeFiles/FormulaCalculator.dir/src/main.c.o: /workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Projetos-da-Escola/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FormulaCalculator.dir/src/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FormulaCalculator.dir/src/main.c.o   -c /workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c
+	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FormulaCalculator.dir/src/main.c.o   -c /workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c
 
 CMakeFiles/FormulaCalculator.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FormulaCalculator.dir/src/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c > CMakeFiles/FormulaCalculator.dir/src/main.c.i
+	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c > CMakeFiles/FormulaCalculator.dir/src/main.c.i
 
 CMakeFiles/FormulaCalculator.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FormulaCalculator.dir/src/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c -o CMakeFiles/FormulaCalculator.dir/src/main.c.s
+	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c -o CMakeFiles/FormulaCalculator.dir/src/main.c.s
 
 CMakeFiles/FormulaCalculator.dir/src/operadores.c.o: CMakeFiles/FormulaCalculator.dir/flags.make
 CMakeFiles/FormulaCalculator.dir/src/operadores.c.o: /workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Projetos-da-Escola/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FormulaCalculator.dir/src/operadores.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FormulaCalculator.dir/src/operadores.c.o   -c /workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.c
+	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FormulaCalculator.dir/src/operadores.c.o   -c /workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.c
 
 CMakeFiles/FormulaCalculator.dir/src/operadores.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FormulaCalculator.dir/src/operadores.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.c > CMakeFiles/FormulaCalculator.dir/src/operadores.c.i
+	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.c > CMakeFiles/FormulaCalculator.dir/src/operadores.c.i
 
 CMakeFiles/FormulaCalculator.dir/src/operadores.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FormulaCalculator.dir/src/operadores.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.c -o CMakeFiles/FormulaCalculator.dir/src/operadores.c.s
+	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.c -o CMakeFiles/FormulaCalculator.dir/src/operadores.c.s
 
 # Object files for target FormulaCalculator
 FormulaCalculator_OBJECTS = \

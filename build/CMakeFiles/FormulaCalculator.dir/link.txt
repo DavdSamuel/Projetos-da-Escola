@@ -1,1 +1,1 @@
-/usr/bin/gcc -g  -rdynamic CMakeFiles/FormulaCalculator.dir/src/main.c.o CMakeFiles/FormulaCalculator.dir/src/operadores.c.o  -o FormulaCalculator 
+gcc -g  -rdynamic CMakeFiles/FormulaCalculator.dir/src/main.c.o CMakeFiles/FormulaCalculator.dir/src/operadores.c.o  -o FormulaCalculator 

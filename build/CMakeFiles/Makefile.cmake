@@ -27,6 +27,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.16/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake"
   "/workspaces/Projetos-da-Escola/FormulaCalculator/CMakeLists.txt"
+  "/workspaces/Projetos-da-Escola/FormulaCalculator/tools/compilador-linux.cmake"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
