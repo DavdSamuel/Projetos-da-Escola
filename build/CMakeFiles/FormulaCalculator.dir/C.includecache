@@ -9,6 +9,8 @@
 /workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c
 stdio.h
 -
+string.h
+-
 operadores.h
 /workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.h
 
