@@ -13,7 +13,7 @@ sudo apt-get install build-essential
 
 - **MinGW (Windows):** É uma versão do GCC para o sistema operacional Windows. Para instalá-lo você pode clicar [aqui](https://sourceforge.net/projects/mingw/)
 
-- **CMake:** Para compilar o FormulaCalculator, você pode baixá-lo [aqui](https://cmake.org/) e configurá-lo
+- **CMake:** Para compilar o FormulaCalculator, você pode baixá-lo [aqui](https://cmake.org/) e configurá-lo.
 ### Recomendado
 - **Git (Opcional):** Se você quiser ver todos esses projetos e fazer coisas com eles, [claro primeiro leia a licença do repositório (Apache 2.0)](https://github.com/DavdTheItGuy/Projetos-da-Escola/blob/main/LICENSE), depois agora você pode [instalar o git](https://git-scm.com/downloads) e [clonar o repositório](https://git-scm.com/docs/git-clone). Para clonar o repositório abra o BASH, CMD, PowerShell ou o terminal da sua escolha e digite:
 ```bash
