@@ -1,5 +1,5 @@
 # Nota bem importante
-O executável e outros arquivos gerados na pasta `build` **são para o sistema operacional Linux**, então **NUNCA, em HIPÓTESE ALGUMA teste esses arquivos no Windows** (e eu nem recomendo testar esses arquivos em algumas distribuições Linux)
+O executável e outros arquivos gerados na pasta `build` **são para o sistema operacional Linux**, então **NUNCA, em HIPÓTESE ALGUMA teste esses arquivos no Windows** (e eu nem recomendo testar esses arquivos em algumas distribuições Linux).
 
 ---
 
@@ -11,7 +11,7 @@ sudo apt-get install build-essential
 ```  
 **Nota: Infelizmente o GCC só está disponível para sistemas Unix e derivados do Unix, como Linux e macOS.**  
 
-- **MinGW (Windows):** É uma versão do GCC para o sistema operacional Windows. Para instalá-lo você pode clicar [aqui](https://sourceforge.net/projects/mingw/)
+- **MinGW (Windows):** É uma versão do GCC para o sistema operacional Windows. Para instalá-lo você pode clicar [aqui](https://sourceforge.net/projects/mingw/).
 
 - **CMake:** Para compilar o FormulaCalculator, você pode baixá-lo [aqui](https://cmake.org/) e configurá-lo.
 ### Recomendado
