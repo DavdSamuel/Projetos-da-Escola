@@ -28,6 +28,22 @@ int main(int argc, char *argv[])
             return 1;
         }
         subtracao(argc, argv);
+    }
+    else if (strcmp(argv[1], "multiply") == 0) {
+        if (argc != 4) {
+            printf("ERRO!\nArgumentos insuficientes:\n");
+            printf("Uso correto do argumento \"multiply\": ./FormulaCalculator multiply <numero1> <numero2>\n");
+            return 1;
+        }
+        multiplicacao(argc, argv);
+    }
+    else if (strcmp(argv[1], "divide") == 0) {
+        if (argc != 4) {
+            printf("ERRO!\nArgumentos insuficientes:\n");
+            printf("Uso correto do argumento \"divide\": ./FormulaCalculator divide <numero1> <numero2>\n");
+            return 1;
+        }
+        divisao(argc, argv);
     } 
     else {
         printf("ERRO!\nArgumento não reconhecido.\n");
