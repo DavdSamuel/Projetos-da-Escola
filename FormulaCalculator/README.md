@@ -1,5 +1,5 @@
 # Nota bem importante
-O executável e outros arquivos gerados na pasta `build` **são para o sistema operacional Linux**, então **NUNCA, em HIPÓTESE ALGUMA teste esses arquivos no Windows** (e eu nem recomendo testar esses arquivos em algumas distribuições Linux).
+O executável e outros arquivos gerados na pasta `build` **são para o sistema operacional Linux**, então **NUNCA, em HIPÓTESE ALGUMA teste esses arquivos no Windows ou Mac** (e eu nem recomendo testar esses arquivos em algumas distribuições Linux).
 
 ---
 
