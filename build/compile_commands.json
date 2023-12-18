@@ -4,6 +4,7 @@
   "command": "gcc   -g   -o CMakeFiles/FormulaCalculator.dir/src/main.c.o   -c /workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c",
   "file": "/workspaces/Projetos-da-Escola/FormulaCalculator/src/main.c"
 },
+
 {
   "directory": "/workspaces/Projetos-da-Escola/build",
   "command": "gcc   -g   -o CMakeFiles/FormulaCalculator.dir/src/operadores.c.o   -c /workspaces/Projetos-da-Escola/FormulaCalculator/src/operadores.c",

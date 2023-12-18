@@ -1,12 +1,11 @@
 cmake_minimum_required (VERSION 3.0.0)
 project (FormulaCalculator)
 
-add_executable(FormulaCalculator src/main.c src/operadores.c)
 
 if(UNIX)
-    include(tools/compilador-linux.cmake)
-elseif(WIN64)
-    include(tools/compilador-windows64.cmake)
+include(tools/compilador-linux.cmake)
 elseif(WIN32)
-    include(tools/compilador-windows32.cmake)
+include(tools/compilador-windows.cmake)
 endif()
+
+add_executable(FormulaCalculator src/main.c src/operadores.c)
