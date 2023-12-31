@@ -8,6 +8,7 @@ Estes são alguns projetos que eu fiz na escola e baseados em coisas que eu fiz 
 - Um projeto com matemática em Julia:
   - [Código](https://github.com/DavdTheItGuy/Projetos-da-Escola/tree/main/projetos_julia)
 - Um projeto de calculadora de fórmulas em C:
-  - [Código](https://github.com/DavdTheItGuy/Projetos-da-Escola/tree/main/FormulaCalculator)---
+  - [Código](https://github.com/DavdTheItGuy/Projetos-da-Escola/tree/main/FormulaCalculator)
+---
 [**Converse sobre os projetos aqui!**](https://github.com/DavdTheItGuy/Projetos-da-Escola/discussions)  
 **Meu E-mail:** samuelmarinhodasilvamarinho@gmail.com
